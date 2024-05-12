@@ -14,7 +14,18 @@ When writing Javadoc comments keep in mind that they might be read by your users
 */
 
 ## Semicolons matter
+
 Remember to end commands with a ; as whitespace is ignored in Java. A ; ends a command and allows a new one to get started.
 
 ## Compilation 
-Java is a compiled programming language. A .java file is transformed into byte code by a compiler before it is executed by a JVM
+
+Java is a compiled programming language. A .java file is transformed into byte code by a compiler before it is executed by a Java Virtual Machine (JVM)
+
+### Compiling a java file we can use the command: 
+javac 
+
+Once a .java file is compiled it will give you a class component that we can execute with 
+java ClassName
+
+
+
