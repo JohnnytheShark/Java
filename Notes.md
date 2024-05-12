@@ -27,5 +27,37 @@ javac
 Once a .java file is compiled it will give you a class component that we can execute with 
 java ClassName
 
+## JShell
+If you are wanting to run simple Java commands you can use jshell. This does not replace the need for an IDE
+In the command prompt you can type jshell then type in /help to give you a list of commands that you can use.
+
+
+## Data Types
+
+Whole Numbers which are int primitive data type
+To declare a variable type of int, the int keyword comes before the variable name: 
+int yearJavaCreated = 1995;
+
+The next number type is double primitive data type. double can hold decimals.
+double price = 9.99;
+
+True or False: booleans
+They have the keyword boolean in the very front. 
+boolean javaIsCoffee = false;
+
+char data type can hold any character, letter, space, or punctuation mark.
+
+String 
+Strings are objects
+Strings hold sequences of characters. 
+In strings the backslash \ has a different meaning. Escape characters begin with the character \. 
+\" Allows us to add quotation marks to a string value. 
+Double \\ Places a backslash in our string.
+String stringName = "New String" or 
+String stringName = new String("New String");
+
+Java programs will not compile if a variable is assigned a value of an incorrect type. This is because Java Programming language has static typing. This is a BUG (declaration bug).
+
+
 
 
