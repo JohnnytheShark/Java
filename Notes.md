@@ -64,7 +64,8 @@ Naming Variables according ot convention leads to clear, readable, and maintaina
 
 Use descriptive names that don't have ambiguity
 
-
+## Arithmetic 
+The operations all work the same as other coding languages. 
 
 
 
