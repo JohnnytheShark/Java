@@ -58,6 +58,14 @@ String stringName = new String("New String");
 
 Java programs will not compile if a variable is assigned a value of an incorrect type. This is because Java Programming language has static typing. This is a BUG (declaration bug).
 
+## Naming Variables 
+
+Naming Variables according ot convention leads to clear, readable, and maintainable code. 
+
+Use descriptive names that don't have ambiguity
+
+
+
 
 
 
