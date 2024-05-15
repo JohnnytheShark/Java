@@ -49,3 +49,28 @@ Example:
 for (int element : newArray){
     System.out.print(element + " " );
 }
+
+## Array of Objects
+This is possible but not considered good practice:
+Object[] objectArray = new Object[3];
+objectArray[0] = "Hello";
+objectArray[1] = new StringBuilder("World");
+
+## Java Arrays type functions
+Arrays.sort(arrayName); // Natural Sort 
+Arrays.toString(arrayName); // Turns array into string to be printed out
+int[] copyArray = Arrays.copyOf(arrayName,arrayName.length) // To make a copy of an array
+When you are making copies of an array and you choose a length that is larget than the original array, the default values for all new values is set to 0.
+
+## Finding a match
+### Binary Search
+If you are going to use a binary search remember that the array must be ** Sorted **. Second, if there are duplicate values in the array, there's no guarantee which one it'll match on.
+Finally Elements must be comparable.
+It returns the index or 0 if no match is found.
+Arrays.binarySearch(arrayName, key)
+
+Checking if arrays are equal 
+Arrays.equals(arrayName1,arrayName2); // Arrays have to be the same length and order.
+
+
+

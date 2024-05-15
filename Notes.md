@@ -67,12 +67,11 @@ Use descriptive names that don't have ambiguity
 ## Arithmetic 
 The operations all work the same as other coding languages. 
 
-## Arrays 
-Something to note for getting the last element from an array is that the last value is refered to by doing the following arrayName[arrayName.length - 1] vs python's way of doing array[-1]
+### Refresher Modulo: 
+I haven't had too many instances in the real world of having to use Modulo 
+Modulo % shows the remainder of a division 
 
-Declaring an array is also different than python instead of brackets [] we use {}
-to declare one
-int[] arrayName = {3,1,4};
+
 
 
 
