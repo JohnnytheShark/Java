@@ -72,5 +72,20 @@ Arrays.binarySearch(arrayName, key)
 Checking if arrays are equal 
 Arrays.equals(arrayName1,arrayName2); // Arrays have to be the same length and order.
 
+## Array Copies
+Java doesn't make a copy of an array when you do the following: 
+int[] myArray = new int[5];
+int[] anotherArray = myArray; 
+
+You are essentially just having to pointers to the same item in memory. 
+
+
+If you want to create a whole new array you will have to make a copy of it, or you will end up changing the original array. 
+
+Not sure what a method will do to your array? Pass a copy of the array.
+
+## String Split: 
+String[] splitStrings = "Hello again".split();
+
 
 
